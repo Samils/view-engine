@@ -61,7 +61,7 @@ namespace Sammy\Packs\ViewEngineError {
     /**
      * @method void Handle
      */
-    public static final function Handle ($errorDatas = null) {
+    public static function Handle ($errorDatas = null) {
       $error = new Error;
 
       if (self::validHandleDatas ($errorDatas)) {
