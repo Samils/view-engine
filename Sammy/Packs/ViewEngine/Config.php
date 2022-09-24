@@ -107,7 +107,7 @@ namespace Sammy\Packs\ViewEngine {
     private static function propertyName ($property) {
       $property = strtolower (trim ($property));
 
-      return preg_replace ('/(\s+|\-+|_+)/', '', $property);
+      return preg_replace ('/(\s|\-|_)+/', '', $property);
     }
   }}
 }
