@@ -60,7 +60,7 @@ namespace Sammy\Packs {
   class ViewEngine implements Samils\ApplicationServer\ViewEngineManager {
     use ViewEngine\Base;
     use ViewEngine\Config;
-    use viewEngine\Config\Paths;
+    use ViewEngine\Config\Paths;
 
     public function start ($datas = null) {
       $this->setDatas ($datas);
